@@ -1,5 +1,16 @@
 *{
     margin:0;
     padding:0;
-    background-color: blue;
 }
+#jump-button:hover {
+    animation: jump 0.5s;
+  }
+  
+  @keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  #jump-button {
+    background: linear-gradient(to bottom, #ff7f00, #ac3c04);
+  }
