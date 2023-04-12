@@ -42,3 +42,78 @@
   #card{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
   }
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #f00;
+  }
+  
+  .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bg-dark {
+    background-color: #000;
+  }
+  
+  .text-light {
+    color: #fff;
+  }
+  
+  .rounded {
+    border-radius: 10px;
+  }
+  
+  .bi {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .bi-link-45deg:before {
+    content: "\e17f";
+  }
+  
+  .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-4 {
+      text-align: center;
+    }
+  }
+  
