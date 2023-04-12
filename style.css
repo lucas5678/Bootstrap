@@ -4,6 +4,7 @@
 }
 #jump-button:hover {
     animation: jump 0.5s;
+    transform: scale(1.2);
   }
   
   @keyframes jump {
@@ -13,4 +14,19 @@
   }
   #jump-button {
     background: linear-gradient(to bottom, #ff7f00, #ac3c04);
+  }
+  #jump-button {
+    box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  #ul-jump:hover{
+    animation: jump-ul 0.5s;
+  }
+  @keyframes jump-ul {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  #card{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
   }
