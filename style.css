@@ -3,7 +3,7 @@
     padding:0;
 }
 #piechart:hover{
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 #titulo-Topo:hover{
     animation: jump-ti 0.5s;
